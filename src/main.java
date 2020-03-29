@@ -12,13 +12,13 @@ public class main {
             new Student(14758, "이**", "컴퓨터",2)
       };
       Arrays.sort(a);
-      print(a,"ID");
+      print(a,"ID ");
       Arrays.sort(a, Student.WITH_DEPT);
-      print(a,"학과");
+      print(a,"학과 ");
       Arrays.sort(a, Student.WITH_NAME);
-      print(a,"이름");
+      print(a,"이름 ");
       Arrays.sort(a, Student.WITH_GRADE);
-      print(a,"학년");
+      print(a,"학년 ");
       
    }
    

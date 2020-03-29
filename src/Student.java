@@ -36,7 +36,7 @@ public class Student implements Comparable<Student> {
 
    public static class  WithName implements Comparator<Student> {
       public int compare(Student s1, Student s2) {
-         return s1.name.compareTo(s2.name);
+            return s1.name.compareTo(s2.name);
       }
    }
    public static class WithDept implements Comparator<Student> {
